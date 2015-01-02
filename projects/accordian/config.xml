@@ -1,0 +1,26 @@
+<data>
+	<item>
+		<position>left</position>
+		<image>TheBusinessOwner.png</image>
+		<headline>THE BUSINESS OWNER</headline>
+		<subheadline>Needs timely, all-encompassing IT support</subheadline>
+		<caption>There’s no such thing as downtime in business today. Your company deserves IT support services from a trusted source that consistently delivers quality service, security, and reliability.</caption>
+		<link>http://www.google.com</link>
+	</item>
+	<item>
+		<position>middle</position>
+		<image>TheCEO.png</image>
+		<headline>THE CEO</headline>
+		<subheadline>Needs to keep communications constant</subheadline>
+		<caption>Dependable technology is essential to your business’s daily functions. Keep the lines of communication open 24/7, enabling your organization to remain focused on quality—and growth.</caption>
+		<link>http://www.google.com</link>
+	</item>
+	<item>
+		<position>right</position>
+		<image>TheCFO.png</image>
+		<headline>THE CFO</headline>
+		<subheadline>Needs predictable IT costs</subheadline>
+		<caption>IT management costs don’t have to be a variable in your budget. Pop Technologies delivers consistent service, enabling accurate budget management and financial assurance.</caption>
+		<link>http://www.google.com</link>
+	</item>
+</data>
