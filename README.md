@@ -1,8 +1,8 @@
 Code Samples
 ==========
 <h3>/js/<h3>
-Javascript class examples
-<ul class="task-list">
+<p>Javascript class examples</p>
+<ul>
 <li><strong>/app.js</strong> - core application class file for mobile application utilizing cordova</li>
 <li><strong>/interface.js</strong> - mobile application interface file utilizing jQuery ajax to communicate with outside server and local mobile app
 </ul>
