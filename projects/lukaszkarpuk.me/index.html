@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Lukasz Karpuk > Portfolio</title>
+	<meta name="description" content="Portfolio of Lukasz Karpuk">
+	<meta name="keywords" content="Lukasz Karpuk">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link  rel='stylesheet' href="css/bootstrap.min.css" />
+	<link  rel='stylesheet' href="css/styles.min.css" />
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/core.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var pf = new Portfolio();
+			pf.init();
+		});
+	</script>
+</head>
+<body>
+	<div id="header">
+		<div id="logo"><img src="images/logo4.png"></div>
+		<a href="javascript://" class="btn mobileOnly" id="mobileMenuBtn"><span class="glyphicon glyphicon-list"></span></a>
+		<div class="header-spacer"></div>
+		<div id="categories" class="desktopOnly">
+			<ul>
+				<li id="cat1" class="selected" data-cat="1">All</li>
+				<li id="cat2" data-cat="2">Desktop / Mobile Apps</li>
+				<li id="cat3" data-cat="3">News and Blogs</li>
+				<li id="cat4" data-cat="4">Social Media</li>
+				<li id="cat5" data-cat="5">Traditional Websites</li>
+			</ul>
+		</div>
+		<div id="mobileCategories" class="mobileOnly">
+			<ul class="mobileNav">
+				<li id="cat1-m" class="selected" data-cat="1"><span>All</span></li>
+				<li id="cat2-m" data-cat="2"><span>Desktop and Mobile</span></li>
+				<li id="cat3-m" data-cat="3"><span>News and Blogs</span></li>
+				<li id="cat4-m" data-cat="4"><span>Social Media</span></li>
+				<li id="cat5-m" data-cat="5"><span>Traditional Websites</span></li>
+			</ul>
+		</div>
+	</div>
+	<div id="content">
+		...
+	</div>	
+	<div id="footer">
+	  <p>&#169; 2014 Lukasz Karpuk. All Rights Reserved.</p>
+	</div>
+</body>
+</html>
